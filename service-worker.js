@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Harshika-g/Avatar-app/precache-manifest.b20fa71056c99be928cfa4f71a1e40e2.js"
+  "/Avatar-app/precache-manifest.ebe6921681d0714c4f8acdff4dc75930.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Harshika-g/Avatar-app/index.html", {
+workbox.routing.registerNavigationRoute("/Avatar-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
