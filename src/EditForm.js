@@ -19,6 +19,7 @@ class RegistrationForm extends React.Component {
       website,
       userOriginalId: id,
     }
+    this.props.editUser(this.state);
   }
 
   nameChangehandler = (userId) => (e) => {
