@@ -14,6 +14,7 @@ class App extends Component {
     this.state = {
       error: null,
       users: [],
+      allUsers: []
     }
   }
 
@@ -91,6 +92,7 @@ class App extends Component {
           });
           this.setState({
             users: result,
+            allUsers: result
           });
         },
         (error) => {
@@ -102,7 +104,7 @@ class App extends Component {
   }
 
   render() {
-    if (this.state.error || this.state.users.length <= 0) {
+    if (this.state.error || this.state.allUsers.length <=0) {
       return (
         <div className = "spinner">
           <div className = "bounce1"></div>

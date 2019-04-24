@@ -2,6 +2,7 @@
   "name": "test-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://harshika-g.github.io/Avatar-app/",
   "dependencies": {
     "antd": "^3.16.4",
     "gh-pages": "^2.0.1",
